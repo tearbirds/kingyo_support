@@ -39,13 +39,15 @@ Katsumi Sakurai ("the developer") provides this policy for the iOS app
 "きんぎょすくい" / Kingyo ("the app").
 </p>
 
-<h2>1. Information the developer does not collect</h2>
+<h2>1. Who collects what</h2>
 <p class="note">
 The app has no account, no sign-in and no server operated by the developer.
 <strong>The developer never receives any information about you.</strong>
+The app does show ads, however, and <strong>Google, as the advertising provider, does
+collect information</strong> (see section 3).
 </p>
 <p>
-The app does not use or collect your name, e-mail address, phone number, contacts,
+The app does not use or collect your name, e-mail address, phone number, contacts, GPS
 location, photos, camera or microphone. Game records are never sent anywhere.
 </p>
 
@@ -74,22 +76,33 @@ The app uses Google AdMob, a third-party advertising service, to show three kind
   <tr><td>Rewarded</td><td>Only when you tap "watch an ad for one more poi" on the game over screen</td></tr>
 </table>
 <p>
-The rewarded ad plays only when you choose it yourself. You can keep playing without watching it.
+The rewarded ad plays only when you choose it yourself. If you decline it you can start a
+new game at any time with "play again" (to continue the same game you either watch the ad
+or exchange 100 coins you have collected). If no rewarded ad can be loaded, for example
+with no network, no ad is shown and you simply stay on the same screen without the extra
+poi; the same happens if you close the ad early. Nothing is ever charged.
+When no banner ad can be shown, that space displays this app's own name and a goldfish
+drawing instead, which is not a third-party advertisement.
 </p>
 <p>
-To deliver and measure ads and to prevent fraud, AdMob may automatically collect:
+To deliver and measure ads and to prevent fraud, the Google Mobile Ads SDK may
+automatically collect the following, as stated in Google's own data disclosure:
 </p>
 <table>
   <tr><th>Type</th><th>Content</th></tr>
-  <tr><td>Advertising identifiers</td><td>IDFA and identifiers issued by AdMob</td></tr>
-  <tr><td>Device information</td><td>Device model, OS version, language, screen size, etc.</td></tr>
-  <tr><td>Approximate region</td><td>Country or region estimated from the IP address</td></tr>
-  <tr><td>Ad interaction</td><td>Impressions, taps, and similar events</td></tr>
+  <tr><td>Device ID</td><td>IDFA and identifiers issued by AdMob</td></tr>
+  <tr><td>Advertising data</td><td>Impressions, taps and similar events</td></tr>
+  <tr><td>Product interaction</td><td>App launches and interactions around the ads</td></tr>
+  <tr><td>Coarse location</td><td>Country or region estimated from the IP address (no GPS)</td></tr>
+  <tr><td>Diagnostics</td><td>Crashes, request outcomes, timing data</td></tr>
 </table>
 <p>
-This information is collected and used by Google; the developer does not receive its contents.
-See
-<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use our services</a>.
+This information is collected and used by Google; the developer does not receive its
+contents. For how Google handles, retains and deletes it, see
+<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use our services</a>
+and
+<a href="https://business.safety.google/privacy/" target="_blank" rel="noopener">Google privacy &amp; security</a>.
+The developer only embeds third parties that protect this information to an equivalent standard.
 </p>
 <p class="note">
 Your scores and records are never passed to the advertising service.
@@ -102,11 +115,15 @@ On first launch iOS asks whether you allow tracking.
 <table>
   <tr><th>Your choice</th><th>What happens</th></tr>
   <tr><td>Allow</td><td>Ads may be personalised using the IDFA</td></tr>
-  <tr><td>Ask app not to track</td><td>The IDFA is not used. Ads are still shown, but are not personalised</td></tr>
+  <tr><td>Ask app not to track</td><td><strong>The IDFA is not included in ad requests.</strong> Ads are still shown, but are not based on interests tracked across apps and websites</td></tr>
 </table>
 <p>
 Either way the whole game remains playable. You can change the choice at any time in
-iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking.
+iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking, including <strong>withdrawing
+permission you gave earlier</strong>; from that moment the IDFA is no longer used.
+</p>
+<p>
+The app requests no ad at all, not even the banner, until the tracking prompt has been answered.
 </p>
 
 <h2>5. In-app purchases</h2>
@@ -127,7 +144,16 @@ The app is not directed to children under 13.
 This policy may change as the law or the app changes. Significant changes will be announced on this page.
 </p>
 
-<h2>8. Contact</h2>
+<h2>8. Deleting your information</h2>
+<p>
+Everything stored on the device disappears when you delete the app. For information Google
+has collected for advertising, see
+<a href="https://myadcenter.google.com/" target="_blank" rel="noopener">Google My Ad Center</a>,
+or withdraw permission in iOS Settings &rarr; Privacy &amp; Security &rarr; Tracking.
+For anything else, please contact the developer below.
+</p>
+
+<h2>9. Contact</h2>
 <p>
 Questions about this policy or the app: <a href="mailto:sakurai.katsumi.1219@gmail.com">sakurai.katsumi.1219@gmail.com</a>
 </p>
